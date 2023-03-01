@@ -1,0 +1,2 @@
+sinatra: ruby server.rb
+webpack: yarn dev:client
