@@ -1,15 +1,18 @@
-
-The backend (server.rb) is setup for a different project, but I left the code in there for reference. Feel free to replace with your own
+The backend (server.rb) is setup for a different project, but I left the code
+in there for reference. Feel free to replace with your own.
 
 ## Setup 
-In one terminal tab: 
+
 ```
 bundle
-ruby server.rb
+yarn install
 ```
 
-In a second terminal tab:
+## Development
+
+The following uses foreman and Procfile.dev to run all required services
+as is the new convention (in Rails at least).
+
 ```
-yarn install
-yarn dev:client
+bin/dev
 ```
